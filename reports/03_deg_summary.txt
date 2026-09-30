@@ -1,0 +1,36 @@
+Differential Expression Analysis Summary
+==================================================
+
+Dataset:          GSE36961
+Comparison:       HCM (n=106) vs Control (n=39)
+Method:           Welch t-test + BH FDR correction
+Thresholds:       FDR < 0.05 AND |Log2FC| > 1.0
+
+Total probes tested:     5,000
+Significant probes:      481
+  Upregulated in HCM:  298
+  Downregulated:       183
+
+Top 10 upregulated probes:
+  ILMN_3000244               log2FC=+3.087  FDR=1.84e-11
+  ILMN_3000083               log2FC=+3.042  FDR=2.94e-12
+  ILMN_3000259               log2FC=+3.028  FDR=2.01e-10
+  ILMN_3000288               log2FC=+3.010  FDR=1.50e-10
+  ILMN_3000108               log2FC=+2.944  FDR=1.26e-10
+  SPARC                      log2FC=+2.940  FDR=1.84e-11
+  ILMN_3000031               log2FC=+2.935  FDR=5.47e-09
+  GALNT6                     log2FC=+2.918  FDR=8.11e-11
+  ILMN_3000052               log2FC=+2.889  FDR=1.60e-10
+  ILMN_3000166               log2FC=+2.867  FDR=5.02e-11
+
+Top 10 downregulated probes:
+  ILMN_3000459               log2FC=-2.091  FDR=5.31e-06
+  ILMN_3000365               log2FC=-2.098  FDR=1.99e-07
+  ILMN_3000411               log2FC=-2.099  FDR=9.84e-07
+  ILMN_3000405               log2FC=-2.108  FDR=6.28e-08
+  ILMN_3000424               log2FC=-2.111  FDR=9.86e-08
+  ILMN_3000328               log2FC=-2.126  FDR=3.57e-06
+  ILMN_3000366               log2FC=-2.127  FDR=1.04e-07
+  CKM                        log2FC=-2.129  FDR=1.97e-06
+  ILMN_3000472               log2FC=-2.132  FDR=2.82e-06
+  PPARGC1A                   log2FC=-2.141  FDR=2.75e-07

@@ -1,0 +1,14 @@
+GSE36961 Quality Control Report
+==================================================
+
+Data source:     Synthetic (GEO-mirrored)
+Dataset:         GSE36961
+HCM samples:     106
+Control samples: 39
+Probes:          5,000
+Value range:     4.50 to 14.50 (log2)
+Outlier samples: 0
+
+Per-group summary:
+  HCM: mean=8.5733  std=0.1596  detected=4852
+  Control: mean=8.5035  std=0.1178  detected=4867

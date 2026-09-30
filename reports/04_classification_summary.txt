@@ -1,0 +1,38 @@
+ML Classification Summary
+==================================================
+
+Dataset:         GSE36961
+Task:            HCM vs Non-Failing Control
+Features:        Top 100 DEG probes (FDR < 0.05)
+Validation:      5-fold stratified cross-validation
+
+Random Forest AUC:          1.0000
+Logistic Regression AUC:    1.0000
+
+Classification Report (Random Forest, threshold=0.5):
+              precision    recall  f1-score   support
+
+     Control       1.00      0.97      0.99        39
+         HCM       0.99      1.00      1.00       106
+
+    accuracy                           0.99       145
+   macro avg       1.00      0.99      0.99       145
+weighted avg       0.99      0.99      0.99       145
+
+
+Top 15 Most Important Probes:
+  ILMN_3000083                    0.039522
+  ILMN_3000244                    0.037316
+  GALNT6                          0.033438
+  ILMN_3000045                    0.026537
+  ILMN_3000166                    0.026496
+  SPARC                           0.025281
+  ILMN_3000040                    0.025033
+  ILMN_3000052                    0.022519
+  ILMN_3000281                    0.022324
+  ILMN_3000135                    0.021526
+  ILMN_3000288                    0.020351
+  ILMN_3000157                    0.019620
+  ILMN_3000031                    0.019375
+  ILMN_3000133                    0.019007
+  BGN                             0.018795
